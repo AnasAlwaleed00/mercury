@@ -1,0 +1,14 @@
+// Nav
+body {
+    position: relative;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: $colorPrimary;
+    z-index: 2;
+    font-size: 1.2rem;
+}
+.nav-links li {
+    cursor: pointer;
+}
